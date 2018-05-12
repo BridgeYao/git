@@ -1,2 +1,2 @@
 # git
-The repository is just for practise.
+The repository is just for practice.
