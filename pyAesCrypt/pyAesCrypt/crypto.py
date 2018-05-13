@@ -1,38 +1,3 @@
-#==============================================================================
-# Copyright 2016 Marco Bellaccini - marco.bellaccini[at!]gmail.com
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#==============================================================================
-
-#==============================================================================
-# pyAesCrypt
-#
-# pyAesCrypt is a Python file-encryption utility that uses AES256-CBC to
-# encrypt/decrypt files.
-# pyAesCrypt is compatible with the AES Crypt (https://www.aescrypt.com/)
-# file format (version 2).
-# It uses PyCA Cryptography for crypto primitives and the operating system's
-# random number generator (/dev/urandom on UNIX platforms, CryptGenRandom
-# on Windows).
-#
-# IMPORTANT SECURITY NOTE: version 2 of the AES Crypt file format does not
-# authenticate the "file size modulo 16" byte. This implies that an attacker
-# with write access to the encrypted file may alter the corresponding plaintext
-# file size by up to 15 bytes.
-#
-# NOTE: there is no low-level memory management in Python, hence it is
-# not possible to wipe memory areas were sensitive information was stored.
-#==============================================================================
 
 # pyAesCrypt module
 

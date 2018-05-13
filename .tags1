@@ -4,19 +4,19 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-default_backend	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^from cryptography.hazmat.backends import default_backend$/;"	namespace	line:55
-hashes	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^from cryptography.hazmat.primitives import hashes, hmac$/;"	namespace	line:56
-hmac	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^from cryptography.hazmat.primitives import hashes, hmac$/;"	namespace	line:56
-Cipher	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes$/;"	namespace	line:57
-algorithms	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes$/;"	namespace	line:57
-modes	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes$/;"	namespace	line:57
-urandom	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^from os import urandom$/;"	namespace	line:58
-stat	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^from os import stat, remove$/;"	namespace	line:59
-remove	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^from os import stat, remove$/;"	namespace	line:59
-version	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^version = "0.3"$/;"	variable	line:62
-bufferSize	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^bufferSize = 64 * 1024$/;"	variable	line:65
-maxPassLen	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^maxPassLen = 1024$/;"	variable	line:68
-AESBlockSize	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^AESBlockSize = 16$/;"	variable	line:72
-stretch	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^def stretch(passw, iv1):$/;"	function	line:76
-encryptFile	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^def encryptFile(infile, outfile, passw, bufferSize):$/;"	function	line:100
-decryptFile	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^def decryptFile(infile, outfile, passw, bufferSize):$/;"	function	line:258
+default_backend	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^from cryptography.hazmat.backends import default_backend$/;"	namespace	line:20
+hashes	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^from cryptography.hazmat.primitives import hashes, hmac$/;"	namespace	line:21
+hmac	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^from cryptography.hazmat.primitives import hashes, hmac$/;"	namespace	line:21
+Cipher	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes$/;"	namespace	line:22
+algorithms	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes$/;"	namespace	line:22
+modes	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes$/;"	namespace	line:22
+urandom	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^from os import urandom$/;"	namespace	line:23
+stat	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^from os import stat, remove$/;"	namespace	line:24
+remove	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^from os import stat, remove$/;"	namespace	line:24
+version	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^version = "0.3"$/;"	variable	line:27
+bufferSize	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^bufferSize = 64 * 1024$/;"	variable	line:30
+maxPassLen	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^maxPassLen = 1024$/;"	variable	line:33
+AESBlockSize	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^AESBlockSize = 16$/;"	variable	line:37
+stretch	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^def stretch(passw, iv1):$/;"	function	line:41
+encryptFile	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^def encryptFile(infile, outfile, passw, bufferSize):$/;"	function	line:65
+decryptFile	E:\git\pyAesCrypt\pyAesCrypt\crypto.py	/^def decryptFile(infile, outfile, passw, bufferSize):$/;"	function	line:223
